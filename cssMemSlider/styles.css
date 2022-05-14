@@ -56,7 +56,7 @@ body {
 }
 
 .text-container__title {
-  font-size: 2rem;
+  font-size: 1.5rem;
   width: 100%;
   color: #000000;
 }
@@ -129,4 +129,29 @@ body {
 }
 #slide4:checked ~ .slider-info .slider-info__nav #item4 {
   background: #400101;
+}
+
+@media (max-width: 420px) {
+  .mem-slider{
+    width: 100%;
+    padding: 1.6rem 0.7rem;
+  }
+  .slider-info {
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+  .info-text {
+    margin-top: 1rem;
+    width: 100%;
+  }
+  .text-container__title {
+    font-size: 1rem;
+  }
+  .info-text__container {
+    text-align: center;
+    font-size: 1.2rem;
+  }
+  .slider-info__nav {
+    margin-bottom: 1.5rem;
+  }
 }
