@@ -38,11 +38,13 @@ body {
 
 .slider-img {
   width: 25%;
+  padding: 0 0.5rem;
 }
 
 .slider-info {
   display: flex;
   justify-content: space-between;
+  padding: 0 0.5rem;
 }
 
 .slider-info__text {
@@ -131,7 +133,7 @@ body {
   background: #400101;
 }
 
-@media (max-width: 420px) {
+@media (max-width: 610px) {
   .mem-slider{
     width: 100%;
     padding: 1.6rem 0.7rem;
